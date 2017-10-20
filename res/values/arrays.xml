@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="map_filter_checkboxes">
+        <item>@string/all_ages</item>
+    </string-array>
+    
+    <string-array name="filter_sort_options">
+        <item>@string/alphabetical</item>
+        <item>@string/distance</item>
+        <item>@string/number_of_games</item>
+    </string-array>
+    
+</resources>

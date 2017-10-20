@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_filter"
+        android:title="@string/action_filter"/>
+
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="@string/action_list"/>
+
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/action_map"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_login"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_logout"
+        android:visible="false" />
+</menu>
